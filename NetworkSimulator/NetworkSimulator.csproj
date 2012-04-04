@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{75D836EF-105B-4601-AF44-AF8050E47E87}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>NetworkSimulator</RootNamespace>
+    <AssemblyName>NetworkSimulator</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Lists\BasicList.cs" />
+    <Compile Include="Nodes\Edge.cs" />
+    <Compile Include="Nodes\Message.cs" />
+    <Compile Include="Lists\MessageList.cs" />
+    <Compile Include="Lists\EdgeList.cs" />
+    <Compile Include="Tools\AsociatedMatrix.cs" />
+    <Compile Include="Forms\MainForm.cs" />
+    <Compile Include="Forms\MainForm.Designer.cs" />
+    <Compile Include="Output\MapImage.cs" />
+    <Compile Include="Output\GraphicalElements.cs" />
+    <Compile Include="Output\IDrawable.cs" />
+    <Compile Include="Lists\IListable.cs" />
+    <Compile Include="Tools\PriorityQueue.cs" />
+    <Compile Include="Tools\PriorityQueueItem.cs" />
+    <Compile Include="Output\GraphicalEdge.cs" />
+    <Compile Include="Nodes\MsgStat.cs" />
+    <Compile Include="Lists\VertexList.cs" />
+    <Compile Include="Nodes\Vertex.cs" />
+    <Compile Include="Output\GraphicalVertex.cs" />
+    <Compile Include="Nodes\VertexConfig.cs" />
+    <Compile Include="Nodes\FindRoute.cs" />
+    <Compile Include="Forms\SettingsForm.cs" />
+    <Compile Include="Forms\SettingsForm.Designer.cs" />
+    <Compile Include="Tools\NumericTextBox.cs" />
+    <Compile Include="Forms\Defaults.cs" />
+    <Compile Include="Simulation\Network.cs" />
+    <Compile Include="Simulation\Session.cs" />
+    <Compile Include="Simulation\SessionConfig.cs" />
+    <Compile Include="Simulation\NetworkConfig.cs" />
+    <Compile Include="Output\MsgListing.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System">
+    </Reference>
+    <Reference Include="System.Core">
+    </Reference>
+    <Reference Include="System.Data">
+    </Reference>
+    <Reference Include="System.Drawing">
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lists\" />
+    <Folder Include="Nodes\" />
+    <Folder Include="Tools\" />
+    <Folder Include="Forms\" />
+    <Folder Include="Simulation\" />
+    <Folder Include="Output\" />
+  </ItemGroup>
+</Project>
