@@ -1,0 +1,61 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="d:\documents\Projects\NetworkSimulator\NetworkSimulator\Output\MapImage.cs">
+    <Files>
+      <File FileName="NetworkSimulator\Forms\MainForm.cs" Line="151" Column="33" />
+      <File FileName="NetworkSimulator\Forms\MainForm.Designer.cs" Line="174" Column="28" />
+      <File FileName="NetworkSimulator\Simulation\Session.cs" Line="61" Column="5" />
+      <File FileName="NetworkSimulator\Nodes\Vertex.cs" Line="62" Column="31" />
+      <File FileName="NetworkSimulator\Nodes\Message.cs" Line="44" Column="31" />
+      <File FileName="NetworkSimulator\Simulation\Network.cs" Line="420" Column="52" />
+      <File FileName="NetworkSimulator\Lists\MessageList.cs" Line="1" Column="1" />
+      <File FileName="NetworkSimulator\Output\MsgListing.cs" Line="38" Column="10" />
+      <File FileName="NetworkSimulator\Lists\BasicList.cs" Line="1" Column="1" />
+      <File FileName="d:\documents\Projects\NetworkSimulator\NetworkSimulator\Output\MapImage.cs" Line="186" Column="22" />
+      <File FileName="NetworkSimulator\Output\GraphicalEdge.cs" Line="25" Column="5" />
+      <File FileName="NetworkSimulator\Output\IDrawable.cs" Line="1" Column="1" />
+      <File FileName="NetworkSimulator\Output\GraphicalVertex.cs" Line="76" Column="47" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="NetworkSimulator" expanded="True">
+            <Node name="Forms" expanded="True" />
+            <Node name="Lists" expanded="True" />
+            <Node name="Nodes" expanded="True" />
+            <Node name="Output" expanded="True">
+              <Node name="MapImage.cs" selected="True" />
+            </Node>
+            <Node name="Simulation" expanded="True" />
+            <Node name="Tools" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>Iterate( MessageList msgList )		</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\documents\Projects\NetworkSimulator\NetworkSimulator\MapImage.cs" line="52" />
+      <Breakpoint file="D:\documents\Projects\NetworkSimulator\NetworkSimulator\MapImage.cs" line="69" />
+      <Breakpoint file="D:\documents\Projects\NetworkSimulator\NetworkSimulator\MapImage.cs" line="85" />
+      <Breakpoint file="D:\documents\Projects\NetworkSimulator\NetworkSimulator\Session.cs" line="109" />
+      <Breakpoint file="D:\documents\Projects\NetworkSimulator\NetworkSimulator\Session.cs" line="120" />
+      <Breakpoint file="D:\documents\Projects\NetworkSimulator\NetworkSimulator\Nodes\Vertix.cs" line="106" />
+      <Breakpoint file="D:\documents\Projects\NetworkSimulator\NetworkSimulator\Simulation\Session.cs" line="361" />
+      <Breakpoint file="D:\documents\Projects\NetworkSimulator\NetworkSimulator\Simulation\Session.cs" line="370" />
+      <Breakpoint file="D:\documents\Projects\NetworkSimulator\NetworkSimulator\Simulation\Session.cs" line="405" />
+      <Breakpoint file="D:\documents\Projects\NetworkSimulator\NetworkSimulator\Simulation\Session.cs" line="400" />
+      <Breakpoint file="D:\documents\Projects\NetworkSimulator\NetworkSimulator\Nodes\Vertex.cs" line="188" />
+      <Breakpoint file="d:\documents\Projects\NetworkSimulator\NetworkSimulator\Output\MapImage.cs" line="213" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
