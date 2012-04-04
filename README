@@ -1,0 +1,6 @@
+A lattice networ simulator with configurable node properties and some analytical features. (still not finished)
+TODO:
+* Each vertex node should run as a separate thread
+* Add more analytical tools, like counter for messages/interval per node. etc
+* Add animation.
+
